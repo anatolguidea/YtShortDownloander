@@ -1,49 +1,44 @@
-# Python Project
+# 🩳 YouTube Shorts Downloader (GUI)
 
-This is a Python project template with basic structure and configuration.
+This is a simple Python application that provides a graphical interface to **download YouTube Shorts** videos using the `yt_dlp` library.
 
-## Setup
+## 🧠 What It Does
 
-1. Create a virtual environment:
-```bash
-python -m venv venv
-```
+* Launches a **desktop window** using Tkinter.
+* Lets the user paste a YouTube Shorts URL.
+* Downloads the video in **MP4 format** (best quality) into a local `downloads/` folder.
+* Automatically creates the `downloads/` folder if it doesn't exist.
 
-2. Activate the virtual environment:
-- Windows:
-```bash
-.\venv\Scripts\activate
-```
-- Linux/Mac:
-```bash
-source venv/bin/activate
-```
+---
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+## 📦 Requirements
 
-## Project Structure
+Make sure you have Python 3.7+ installed. Then install the required packages:
 
-```
-.
-├── README.md
-├── requirements.txt
-├── src/
-│   └── main.py
-└── tests/
-    └── test_main.py
-```
+pip install yt-dlp
 
-## Running the Project
+> Note: `tkinter` is included by default in most Python installations.
 
-To run the main script:
-```bash
-python src/main.py
-```
+---
 
-To run tests:
-```bash
-pytest
-``` 
+## 🚀 How to Run
+
+1. **Save the script** as `app.py` or any `.py` file.
+2. Open a terminal or double-click the script to run it.
+
+If running from terminal:
+
+python app.py
+
+3. **Paste** the YouTube Shorts link into the text field.
+4. Click the **"Download"** button.
+5. The downloaded video will appear in the `downloads/` folder.
+
+---
+
+
+## ⚠️ Disclaimer
+
+This tool is for **personal and educational use only**. Downloading copyrighted material without permission may violate YouTube’s [Terms of Service](https://www.youtube.com/t/terms).
+
+
